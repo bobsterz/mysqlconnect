@@ -3,8 +3,6 @@
 
     <string name="action_update">update</string>
     <string name="action_add">Add</string>
-    <string name="title_activity_add">AddActivity</string>
-
-    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add">Insert Data</string>
     <string name="action_settings">Settings</string>
 </resources>

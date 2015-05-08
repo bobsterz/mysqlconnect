@@ -6,10 +6,12 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 
 
 public class MainActivity extends ActionBarActivity {
 
+    ListView list1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,11 +38,24 @@ public class MainActivity extends ActionBarActivity {
 
                 return true;
             case R.id.action_add:
-                Intent intent = new Intent(getApplicationContext(), AddActivity.class);
+                Intent intent = new Intent(getApplicationContext(), InsertActivity.class);
                 startActivity(intent);
                 return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
-}
+
+//    public void onClickUpdate(View arg0){
+//        ReadData task1 = new ReadData();
+//        task1.execute(new String[]{});
+//    }
+//
+//    private class ReadData extends AsyncTask<String, Void, Boolean>{
+//
+//        @Override
+//        protected Boolean doInBackground(String... urls) {
+//            return null;
+//        }
+    }
+

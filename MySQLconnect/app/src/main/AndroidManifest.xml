@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AddActivity"
+            android:name=".InsertActivity"
             android:label="@string/title_activity_add" >
         </activity>
     </application>
