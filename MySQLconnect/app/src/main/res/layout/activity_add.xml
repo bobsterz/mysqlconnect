@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name:"
+        android:text="@string/name"
         android:id="@+id/textViewName"
         android:layout_below="@+id/toolbar"
         android:layout_alignParentLeft="true"
@@ -36,12 +36,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp" />
+        android:layout_marginRight="20dp"
+        android:singleLine="true"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Phone:"
+        android:text="@string/phone"
         android:id="@+id/textViewPhone"
         android:layout_below="@+id/editName"
         android:layout_alignParentLeft="true"
@@ -59,12 +60,13 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp" />
+        android:layout_marginRight="20dp"
+        android:singleLine="true"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Description:"
+        android:text="@string/Description"
         android:id="@+id/textViewDesc"
         android:layout_below="@+id/editPhone"
         android:layout_alignParentLeft="true"
@@ -82,12 +84,13 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp" />
+        android:layout_marginRight="20dp"
+        android:singleLine="true"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Send"
+        android:text="@string/send"
         android:id="@+id/btnSend"
         android:layout_below="@+id/editDesc"
         android:layout_marginTop="20dp"
